@@ -22,7 +22,7 @@ function OrphanagesMap() {
     //avisa que será armazenado uma lista de Orphanage
     const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
 
-    console.log(orphanages);
+    //console.log(orphanages);
 
     //1par = o que eu quero executar, 2par = quando eu quero executar
     useEffect(() => {
